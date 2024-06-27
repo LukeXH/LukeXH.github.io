@@ -131,9 +131,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+blog_name: # al-folio # blog_name will be displayed in your blog page
+blog_description: # a simple whitespace theme for academics
+permalink: # /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -379,7 +379,7 @@ enable_publication_thumbnails: true
 
 # These are the defaults
 external_links:
-  enabled: true
+  enabled: false
   rel: external nofollow noopener
   target: _blank
   exclude:
